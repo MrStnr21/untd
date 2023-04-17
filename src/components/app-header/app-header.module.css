@@ -1,0 +1,91 @@
+.header {
+  margin: 40px auto 0;
+  padding: 0;
+  width: 1296px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menuContainer {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  margin: 0 0 0 145%;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  min-width: 521px;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.listActive {
+  margin: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.listItem {
+  margin: 0;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.15s ease-in-out;
+}
+
+.listItem:hover {
+  border-bottom: 2px solid #db3138;
+}
+
+.burgerMenu {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  width: 40px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid #db3138;
+  border-bottom: 3px solid #db3138;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.burgerMenu:hover {
+  opacity: 0.7;
+}
+
+.buttonImage {
+  margin: 0;
+  padding: 0;
+  right: 0;
+  position: absolute;
+  transition: right 0.3s;
+}
+
+.buttonImageActive {
+  right: 15px;
+}

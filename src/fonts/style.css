@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: local("ReformaGrotesk"),
+    url("./ReformaGroteskLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: local("ReformaGrotesk"),
+    url("./ReformaGroteskMediumC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: local("ReformaGrotesk"),
+    url("./ReformaGroteskBoldC.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bold;
+}
