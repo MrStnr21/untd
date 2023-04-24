@@ -2,8 +2,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 100vw;
-  min-height: 100vh;
-  overflow: hidden;
+  min-height: 100%;
   position: relative;
 }
 
@@ -25,7 +24,7 @@
 .titleWrapper {
   margin: 0;
   padding: 0;
-  height: calc(100vh - 285px);
+  min-height: calc(100vh - 285px);
   display: flex;
   align-items: center;
 }
@@ -120,52 +119,6 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #db3138;
-}
-
-.iconScroll,
-.iconScroll:before {
-  position: absolute;
-  left: 50%;
-  bottom: 25%;
-}
-
-.iconScroll {
-  width: 20px;
-  height: 35px;
-  box-shadow: inset 0 0 0 1px #9a9a9a;
-  border-radius: 25px;
-}
-
-.iconScroll:before {
-  content: "";
-  width: 4px;
-  height: 4px;
-  background: #fff;
-  margin-left: -2px;
-  top: 4px;
-  border-radius: 2px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
-}
-
-@keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(23px);
-  }
-}
-
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.95;
-  }
 }
 
 .titleRight {

@@ -44,7 +44,6 @@ const Welcome: FC = (): JSX.Element => {
           <p className={stylesWelcome.infoText}>сб-вск : 12:00 - 20:00</p>
         </div>
       </div>
-      <div className={stylesWelcome.iconScroll}></div>
     </section>
   );
 };
