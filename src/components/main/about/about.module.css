@@ -1,0 +1,15 @@
+.container {
+  margin: 180px auto;
+  padding: 0;
+  max-width: 1296px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  column-gap: 40px;
+}
+
+.stripe {
+  margin: 0;
+  padding: 0;
+  border: 0.1px solid #db3138;
+}

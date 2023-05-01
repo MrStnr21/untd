@@ -1,0 +1,16 @@
+.buttonScroll {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonImg {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+}
+
+.buttonImgRight {
+  transform: rotate(180deg);
+}
