@@ -1,0 +1,39 @@
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 420px;
+  width: 100%;
+  min-height: 420px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 366px;
+  width: 100%;
+  min-height: 70px;
+  background: #db3138;
+  position: absolute;
+  bottom: 35px;
+  z-index: 1;
+}
+
+.text {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 286px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 2;
+}

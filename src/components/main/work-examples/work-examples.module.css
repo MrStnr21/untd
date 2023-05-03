@@ -1,5 +1,5 @@
 .container {
-  margin: 0 auto;
+  margin: 0 auto 180px;
   padding: 0;
   max-width: 1560px;
   width: 100%;
@@ -15,4 +15,5 @@
   width: 100%;
   display: flex;
   column-gap: 24px;
+  overflow-x: scroll;
 }

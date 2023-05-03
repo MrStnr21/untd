@@ -10,4 +10,7 @@ Urna, ut amet odio orci magnis praesent ultrices.
 Praesent malesuada lacus tellus tristique sit at. 
 Sed viverra nulla nam arcu, non iaculis pretium, volutpat.`;
 
-export { aboutText, achievmentsText };
+const exampletext = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras vulputate laoreet sapien a sit ante.`;
+
+export { aboutText, achievmentsText, exampletext };
