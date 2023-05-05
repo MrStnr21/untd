@@ -13,4 +13,20 @@ Sed viverra nulla nam arcu, non iaculis pretium, volutpat.`;
 const exampletext = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Cras vulputate laoreet sapien a sit ante.`;
 
-export { aboutText, achievmentsText, exampletext };
+const materialsText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras vulputate laoreet sapien a sit ante.`;
+
+const experienceText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras vulputate laoreet sapien a sit ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras vulputate laoreet sapien a sit ante.`;
+
+const garantyText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.`;
+
+export {
+  aboutText,
+  achievmentsText,
+  exampletext,
+  materialsText,
+  experienceText,
+  garantyText,
+};

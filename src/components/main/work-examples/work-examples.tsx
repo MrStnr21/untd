@@ -11,21 +11,28 @@ import exampleImageThree from "../../../images/exampleImage-3.png";
 
 import { exampletext } from "../../utils/data";
 
+import { Carousel } from "@trendyol-js/react-carousel";
+
 const WorkExamples: FC = (): JSX.Element => {
   return (
     <section className={stylesWorkExamples.container}>
-      <ButtonScroll direction={"left"} />
-      <div className={stylesWorkExamples.sliderContainer}>
-
+      <Carousel
+        show={3}
+        slide={1}
+        transition={0.3}
+        responsive={true}
+        swiping={true}
+        leftArrow={<ButtonScroll direction={"left"} />}
+        rightArrow={<ButtonScroll direction={"right"} />}
+        className={stylesWorkExamples.carousel}
+      >
         <ExampleCard image={exampleImageOne} text={exampletext} />
         <ExampleCard image={exampleImageTwo} text={exampletext} />
         <ExampleCard image={exampleImageThree} text={exampletext} />
         <ExampleCard image={exampleImageOne} text={exampletext} />
         <ExampleCard image={exampleImageTwo} text={exampletext} />
         <ExampleCard image={exampleImageThree} text={exampletext} />
-
-      </div>
-      <ButtonScroll direction={"right"} />
+      </Carousel>
     </section>
   );
 };

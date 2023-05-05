@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "src/components/ui/article/.srticle.tsx"  ]
+, "src/components/main/about/article-about/.srticle.tsx"  ]
 }

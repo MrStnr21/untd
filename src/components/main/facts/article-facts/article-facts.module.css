@@ -1,0 +1,51 @@
+.articleContainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.titleContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  width: 57px;
+  height: 70px;
+}
+
+.title {
+  margin-bottom: 40px;
+  padding: 0;
+  width: 100%;
+  max-width: 426px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+}
+
+.divider {
+  margin: 40px auto;
+  padding: 0;
+  width: 100%;
+  max-width: 146px;
+  display: flex;
+  justify-content: center;
+}
