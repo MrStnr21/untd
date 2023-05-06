@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto 180px;
+  padding: 0;
+  max-width: 1296px;
+  min-height: 703px;
+  width: 100%;
+}
+
+.buttonContainer {
+  margin: 0 auto 80px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.cardsContainer {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}

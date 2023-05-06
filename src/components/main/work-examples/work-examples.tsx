@@ -9,7 +9,7 @@ import exampleImageOne from "../../../images/exampleImage-1.png";
 import exampleImageTwo from "../../../images/exampleImage-2.png";
 import exampleImageThree from "../../../images/exampleImage-3.png";
 
-import { exampletext } from "../../utils/data";
+import { exampleText } from "../../utils/data";
 
 import { Carousel } from "@trendyol-js/react-carousel";
 
@@ -26,12 +26,12 @@ const WorkExamples: FC = (): JSX.Element => {
         rightArrow={<ButtonScroll direction={"right"} />}
         className={stylesWorkExamples.carousel}
       >
-        <ExampleCard image={exampleImageOne} text={exampletext} />
-        <ExampleCard image={exampleImageTwo} text={exampletext} />
-        <ExampleCard image={exampleImageThree} text={exampletext} />
-        <ExampleCard image={exampleImageOne} text={exampletext} />
-        <ExampleCard image={exampleImageTwo} text={exampletext} />
-        <ExampleCard image={exampleImageThree} text={exampletext} />
+        <ExampleCard image={exampleImageOne} text={exampleText} />
+        <ExampleCard image={exampleImageTwo} text={exampleText} />
+        <ExampleCard image={exampleImageThree} text={exampleText} />
+        <ExampleCard image={exampleImageOne} text={exampleText} />
+        <ExampleCard image={exampleImageTwo} text={exampleText} />
+        <ExampleCard image={exampleImageThree} text={exampleText} />
       </Carousel>
     </section>
   );

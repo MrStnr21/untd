@@ -24,11 +24,20 @@
   right: 0;
 }
 
+.buttonStandart {
+  padding: 15px 25px;
+  font-size: 26px;
+}
+
+.buttonSmall {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .text {
   margin: 0;
-  padding: 15px 25px;
   font-style: normal;
-  font-size: 26px;
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -36,4 +45,8 @@
   color: #ffffff;
   position: relative;
   z-index: 1;
+}
+
+.active {
+  background-color: #db3138;
 }

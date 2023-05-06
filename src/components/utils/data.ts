@@ -10,7 +10,7 @@ Urna, ut amet odio orci magnis praesent ultrices.
 Praesent malesuada lacus tellus tristique sit at. 
 Sed viverra nulla nam arcu, non iaculis pretium, volutpat.`;
 
-const exampletext = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+const exampleText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Cras vulputate laoreet sapien a sit ante.`;
 
 const materialsText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -25,7 +25,7 @@ const garantyText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ve
 export {
   aboutText,
   achievmentsText,
-  exampletext,
+  exampleText,
   materialsText,
   experienceText,
   garantyText,

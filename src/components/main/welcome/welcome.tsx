@@ -23,7 +23,7 @@ const Welcome: FC = (): JSX.Element => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae orci
             urna amet penatibus.
           </h3>
-          <Button text={"Наши услуги"} />
+          <Button text={"Наши услуги"} type="standart" />
         </div>
       </div>
       <div className={stylesWelcome.infoContainer}>
