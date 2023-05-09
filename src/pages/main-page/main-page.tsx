@@ -5,6 +5,7 @@ import { About } from "../../components/main/about/about";
 import { WorkExamples } from "../../components/main/work-examples/work-examples";
 import { Facts } from "../../components/main/facts/facts";
 import { Services } from "../../components/main/services/services";
+import { OurWorks } from "../../components/main/our-works/our-works";
 
 const MainPage: FC = (): JSX.Element => {
   return (
@@ -12,8 +13,10 @@ const MainPage: FC = (): JSX.Element => {
       <Welcome />
       <About />
       <WorkExamples />
-      <Facts />
+      <Facts type="wrap" />
       <Services />
+      <Facts type="detailing" />
+      <OurWorks />
     </>
   );
 };

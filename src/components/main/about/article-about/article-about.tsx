@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesArticleAbout from "./article-about.module.css";
 
-import reactangles from "../../../../images/decoration_rect.svg";
+import reactangles from "../../../../images/decoration/decoration_rect.svg";
 
 interface IArticleAbout {
   title: string;

@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesArticleFacts from "./article-facts.module.css";
 
-import reactangles from "../../../../images/decoration_rect.svg";
+import reactangles from "../../../../images/decoration/decoration_rect.svg";
 
 interface IArticleFacts {
   image: string;

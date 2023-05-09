@@ -3,7 +3,7 @@ import { FC } from "react";
 import stylesCard from "./card.module.css";
 
 import { Button } from "../button/button";
-import rectangles from '../../../images/decoration_rect.svg'
+import rectangles from '../../../images/decoration/decoration_rect.svg'
 
 interface ICard {
   title: string;

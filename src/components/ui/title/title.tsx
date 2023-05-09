@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesTitle from "./title.module.css";
 
-import rectangles from "../../../images/decoration_rect.svg";
+import rectangles from "../../../images/decoration/decoration_rect.svg";
 
 interface ITitle {
   text: string;

@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 
 import stylesAppHeader from "./app-header.module.css";
 
-import dash from "../../images/dash.svg";
+import dash from "../../images/decoration/dash.svg";
 import { NavLink } from "react-router-dom";
 
 const AppHeader: FC = (): JSX.Element => {

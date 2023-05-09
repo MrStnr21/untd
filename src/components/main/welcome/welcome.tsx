@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesWelcome from "./welcome.module.css";
 
-import backgroundImage from "../../../images/porsche_bg.webp";
+import backgroundImage from "../../../images/background/porsche_bg.webp";
 
 import { AppHeader } from "../../app-header/app-header";
 import { Button } from "../../ui/button/button";

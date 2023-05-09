@@ -1,0 +1,37 @@
+.section {
+  margin: 0 auto 120px;
+  padding: 0;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.imageContainer {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0px;
+  column-gap: 0px;
+}
+
+.imageItem {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: 280px;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+}
+
+.imageItem:hover {
+  opacity: 0.5;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: 280px;
+}

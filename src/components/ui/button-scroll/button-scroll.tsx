@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stulesButtonScroll from "./button-scroll.module.css";
 
-import arrow from "../../../images/arrow-button.svg";
+import arrow from "../../../images/buttons/arrow-button.svg";
 
 interface IButtonScroll {
   direction: string;
