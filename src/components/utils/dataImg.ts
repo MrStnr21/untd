@@ -1,3 +1,5 @@
+import { TArrImage } from "../../services/types/data";
+
 import image1 from "../../images/our-works/Rectangle 56-1.png";
 import image2 from "../../images/our-works/Rectangle 56-2.png";
 import image3 from "../../images/our-works/Rectangle 56.png";
@@ -17,7 +19,7 @@ import image16 from "../../images/our-works/Rectangle 61-1.png";
 import image17 from "../../images/our-works/Rectangle 61-2.png";
 import image18 from "../../images/our-works/Rectangle 61.png";
 
-const arrImage = [
+const arrImage: Array<TArrImage> = [
   { id: 9, image: image9, alt: "фото" },
   { id: 1, image: image1, alt: "фото" },
   { id: 11, image: image11, alt: "фото" },

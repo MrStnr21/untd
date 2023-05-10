@@ -26,36 +26,3 @@
   display: flex;
   justify-content: center;
 }
-
-.examplesContainer {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 526px;
-}
-
-.image {
-  margin: 0 0 40px 0;
-  padding: 0;
-  width: 636px;
-}
-
-.carousel {
-  margin: 0;
-  padding: 0;
-  width: 636px;
-}
-
-.carouselItem {
-  margin: 0 auto;
-  padding: 0;
-  width: 422px;
-  min-height: 50px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
