@@ -1,0 +1,21 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #898989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+}
+
+.container:hover {
+  opacity: 0.7;
+}

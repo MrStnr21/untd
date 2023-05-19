@@ -1,0 +1,25 @@
+.inputForm {
+  margin: 0;
+  padding: 15px 25px 10px;
+  width: 256px;
+  border: 1px solid #898989;
+  background: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.inputForm:focus-visible {
+  outline: none;
+  border: 1px solid #db3138;
+}
+
+.inputForm::-webkit-outer-spin-button,
+.inputForm::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
