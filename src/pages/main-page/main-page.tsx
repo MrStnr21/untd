@@ -7,6 +7,7 @@ import { Facts } from "../../components/main/facts/facts";
 import { Services } from "../../components/main/services/services";
 import { OurWorks } from "../../components/main/our-works/our-works";
 import { AppFooter } from "../../components/app-footer/app-footer";
+import { FeedbackForm } from "../../components/main/feedback-form/feedback-form";
 
 const MainPage: FC = (): JSX.Element => {
   return (
@@ -18,6 +19,7 @@ const MainPage: FC = (): JSX.Element => {
       <Services />
       <Facts type="detailing" />
       <OurWorks />
+      <FeedbackForm />
       <AppFooter />
     </>
   );

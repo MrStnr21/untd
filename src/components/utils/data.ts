@@ -36,6 +36,14 @@ const bigCardTextAlt: Array<TCardBig> = [
   { id: 3, text: exampleText },
 ];
 
+const phoneNum = "+7(999)999-99-99";
+
+const mailAddress = "fakeMail@fakeMail.ru";
+
+const address = "Eu faucibus et rutrum fringilla orci nunc";
+
+const copyright = "2023 © Yaroslav P";
+
 export {
   aboutText,
   achievmentsText,
@@ -45,4 +53,8 @@ export {
   garantyText,
   bigCardText,
   bigCardTextAlt,
+  phoneNum,
+  mailAddress,
+  address,
+  copyright,
 };
