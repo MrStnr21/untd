@@ -3,10 +3,10 @@ import { FC } from "react";
 import stylesCardBig from "./card-big.module.css";
 
 import { Carousel } from "@trendyol-js/react-carousel";
+
 import { ButtonScroll } from "../button-scroll/button-scroll";
 
 import { TCardBig } from "../../../services/types/data";
-import { type } from "os";
 
 interface ICardBig {
   image: string;

@@ -15,6 +15,7 @@ import mail from "../../../images/social-media/mail.svg";
 import { Title } from "../../ui/title/title";
 import { Button } from "../../ui/button/button";
 import { Contact } from "../../ui/contact/contact";
+
 import { address, phoneNum, mailAddress } from "../../utils/data";
 
 const FeedbackForm: FC = (): JSX.Element => {

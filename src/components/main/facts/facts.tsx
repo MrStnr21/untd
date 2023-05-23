@@ -2,12 +2,17 @@ import { FC } from "react";
 
 import stylesFacts from "./facts.module.css";
 
-import { materialsText, experienceText, garantyText } from "../../utils/data";
-
 import { ArticleFacts } from "./article-facts/article-facts";
+
 import { CardBig } from "../../ui/card-big/card-big";
 
-import { bigCardText, bigCardTextAlt } from "../../utils/data";
+import {
+  bigCardText,
+  bigCardTextAlt,
+  materialsText,
+  experienceText,
+  garantyText,
+} from "../../utils/data";
 
 import listIcon from "../../../images/icons/list_icon.svg";
 import pshikIcon from "../../../images/icons/pshik_icon.svg";

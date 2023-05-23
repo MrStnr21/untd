@@ -19,7 +19,11 @@ const OurWorks: FC = (): JSX.Element => {
           ? arrImage.map((item) => {
               return (
                 <li key={item.id} className={stylesOurWorks.imageItem}>
-                  <img className={stylesOurWorks.image} src={item.image} alt={item.alt} />
+                  <img
+                    className={stylesOurWorks.image}
+                    src={item.image}
+                    alt={item.alt}
+                  />
                 </li>
               );
             })

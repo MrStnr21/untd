@@ -13,7 +13,11 @@ const ArticleAbout: FC<IArticleAbout> = ({ title, text }): JSX.Element => {
   return (
     <div className={stylesArticleAbout.articleContainer}>
       <h2 className={stylesArticleAbout.title}>{title}</h2>
-      <img className={stylesArticleAbout.rect} src={reactangles} alt="разделитель" />
+      <img
+        className={stylesArticleAbout.rect}
+        src={reactangles}
+        alt="разделитель"
+      />
       <p className={stylesArticleAbout.text}>{text}</p>
     </div>
   );
